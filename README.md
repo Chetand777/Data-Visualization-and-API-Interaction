@@ -1,53 +1,41 @@
-**Key Learnings**
+## Key Learnings
 
-1. Creating Line Charts with Matplotlib
+**1. Creating Line Charts with Matplotlib**
 
--Key Functionality: Plotting simple line charts.
+- **Key Functionality:** Plotting simple line charts.
+- **Styling:** Learned how to apply different styles like 'seaborn'.
+- **Customization:** Title, labels, and tick parameters customization.
 
--Styling: Learned how to apply different styles like 'seaborn'.
+**2. Scatter Plots with Matplotlib**
 
--Customization: Title, labels, and tick parameters customization.
+- **Key Functionality:** Creating scatter plots for large datasets.
+- **Colormap Utilization:** Used colormaps to visually represent data points based on their value.
+- **Saving Figures:** Learned how to save plots as image files.
 
-2. Scatter Plots with Matplotlib
+**3. Visualizing Random Walks**
 
--Key Functionality: Creating scatter plots for large datasets.
+- **Class Creation:** Created a class to generate random walks.
+- **Visualization:** Plotted the random walks and highlighted start and end points.
+- **Customization:** Customized figure size and resolution.
 
--Colormap Utilization: Used colormaps to visually represent data points based on their value.
+**4. Loading and Processing GeoJSON Data**
 
--Saving Figures: Learned how to save plots as image files.
+- **Data Loading:** Utilized `json` and `pathlib` libraries to load and process GeoJSON data.
+- **Data Normalization:** Used `pandas.json_normalize` to flatten nested JSON data.
 
-3. Visualizing Random Walks
+**5. Interactive Bar Charts with Plotly**
 
--Class Creation: Created a class to generate random walks.
+- **API Data Processing:** Processed data from GitHub API to visualize the most-starred Python projects.
+- **Interactive Elements:** Added clickable links to the bar chart.
+- **Hover Text:** Customized hover text to display additional information.
 
--Visualization: Plotted the random walks and highlighted start and end points.
+**6. Interacting with Hacker News API**
 
--Customization: Customized figure size and resolution.
+- **Data Fetching:** Used the `requests` library to fetch data from the Hacker News API.
+- **Status Code Checking:** Implemented status code checks to ensure successful data retrieval.
+- **JSON Handling:** Parsed and formatted JSON data for better readability.
 
-4. Loading and Processing GeoJSON Data
+**7. Summarizing Hacker News Articles**
 
--Data Loading: Utilized json and pathlib libraries to load and process GeoJSON data.
-
--Data Normalization: Used pandas.json_normalize to flatten nested JSON data.
-
-5. Interactive Bar Charts with Plotly
-
--API Data Processing: Processed data from GitHub API to visualize the most-starred Python projects.
-
--Interactive Elements: Added clickable links to the bar chart.
-
--Hover Text: Customized hover text to display additional information.
-
-6. Interacting with Hacker News API
-
--Data Fetching: Used the requests library to fetch data from the Hacker News API.
-
--Status Code Checking: Implemented status code checks to ensure successful data retrieval.
-
--JSON Handling: Parsed and formatted JSON data for better readability.
-
-7. Summarizing Hacker News Articles
-
--Data Summarization: Fetched and summarized top articles from Hacker News.
-
--Sorting and Filtering: Sorted articles based on the number of comments to identify the most      discussed topics.
+- **Data Summarization:** Fetched and summarized top articles from Hacker News.
+- **Sorting and Filtering:** Sorted articles based on the number of comments to identify the most discussed topics.
